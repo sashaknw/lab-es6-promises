@@ -42,6 +42,9 @@ getInstruction("mashedPotatoes", 0, (step0) => {
       getInstruction("mashedPotatoes", 3, (step3) => {
         document.querySelector("#mashedPotatoes").innerHTML += `<li>${step3}</li>`;
 
+        getInstruction("mashedPotatoes", 4, (step4) => {
+          document.querySelector("#mashedPotatoes").innerHTML += `<li>${step4}</li>`;
+
         
           document.querySelector("#mashedPotatoes").innerHTML += `<li>Mashed potatoes are ready!</li>`;
           document.querySelector("#mashedPotatoesImg").removeAttribute("hidden");
